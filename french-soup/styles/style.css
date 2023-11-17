@@ -4,6 +4,73 @@ h1, body, html, main {
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px
+  box-sizing: border-box;
+}
+
+body, h1, h2, p, ol, ul {
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
+}
+
+.header-container {
+  position: relative;
+  height: 750px;
+  width: auto;
+  text-align: center;
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-position: 0%;
+}
+
+.h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+
+hr {
+  display: block;
+  width: 60%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.first-container {
+  display: block;
+  position: relative;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.container {
+  position: relative;
+  display: block;
+  width: 60%;
+  margin: auto;
+  height: 30vh;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.list {
+  line-height: 1.6;
+}
+
+.recipe-info {
+  display: block;
+  width: 25%;
+  margin: auto;
+}
+
+.cooking-info {
+  display: block;
+  width: 25%;
+  margin: auto;
 }
